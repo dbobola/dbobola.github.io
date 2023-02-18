@@ -1,0 +1,1721 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>dbobola</title>
+  </head>
+  <body onload="typeWriter()">
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">dbobola</a>
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home-alt"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="bx bx-user"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-book"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">
+                <i class="bx bx-briefcase-alt-2"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="bx bx-message-square-detail"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Theme Change Button-->
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <div id="home__intro"></div>
+            <div class="home__buttons">
+              <a
+                download=""
+                href="assets/pdf/dbobola-resume.pdf"
+                class="button button--ghost"
+              >
+                Download CV
+              </a>
+              <a href="#about" class="button">About me</a>
+            </div>
+          </div>
+          <div class="home__handle">
+            <img src="assets/img/dp8.png" alt="" class="home__img" />
+          </div>
+          <div class="home__social">
+            <a
+              href="https://www.linkedin.com/in/david-bobola-ojoawo-52742b1a9"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a
+              href="https://github.com/dbobola/"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-github"></i>
+            </a>
+            <a
+              href="https://twitter.com/dbobolah"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-twitter"></i>
+            </a>
+          </div>
+          <a href="#about" class="home__scroll">
+            <i class="bx bx-mouse home__scroll-icon"></i>
+            <span class="home__scroll-name">Scroll Down</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="client section" id="client">
+        <div class="client section">
+          <span class="section__subtitle">Worked with</span>
+          <h2 class="section__title">Clients & Partners</h2>
+          <div class="client-logos">
+            <img src="assets/img/plar-lg.png" alt="Client Logo 1" />
+            <img src="assets/img/cinevase-lg.png" alt="Client Logo 2" />
+            <img src="assets/img/vr-workout.png" alt="Client Logo 3" />
+            <img src="assets/img/RaiseTips.png" alt="Client Logo 3" />
+            <img src="assets/img/one2one-lg.png" alt="Client Logo 3" />
+            <img src="assets/img/dcsi.png" alt="Client Logo 3" />
+            <!-- Add more client logos here as needed -->
+          </div>
+        </div>
+      </section>
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <span class="section__subtitle">My Intro</span>
+        <h2 class="section__title">About me</h2>
+        <div class="about__container container grid">
+          <img src="assets/img/dp3.jpg" alt="" class="about__img" />
+          <div class="about__data">
+            <div class="about__info">
+              <div class="about__box">
+                <i class="bx bx-award about__icon"></i>
+                <h3 class="about__title">Experience</h3>
+                <span class="about__subtitle">6 years Working</span>
+              </div>
+              <div class="about__box">
+                <i class="bx bx-briefcase-alt about__icon"></i>
+                <h3 class="about__title">Completed</h3>
+                <span class="about__subtitle">32+ Projects</span>
+              </div>
+              <div class="about__box">
+                <i class="bx bx-support about__icon"></i>
+                <h3 class="about__title">Support</h3>
+                <span class="about__subtitle">Online 24/7</span>
+              </div>
+            </div>
+            <h5 id="typing-text"></h5>
+            <div class="about__description"></div>
+            <a href="#contact" class="button">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SKILLS ===============-->
+      <section class="skills section" id="skills">
+        <span class="section__subtitle">My abilities</span>
+        <h2 class="section__title">My Experience</h2>
+
+        <div class="skills__container container grid">
+          <div class="skills__content">
+            <h3 class="skills__title">DevOps Engineering</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Docker</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Ansible</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Jenkins/Azure DevOps</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Kubernetes</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Puppet</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">AWS/Azure/GCP</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__content">
+            <h3 class="skills__title">Site Reliability Engineering</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Chef</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Prometheus</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">JMeter</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">PagerDuty</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">OpsGenie</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">VictorOps</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__content">
+            <h3 class="skills__title">Articial Intelligence</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Tensorflow</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Scikit-learn</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Keras</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Pandas</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Matlib</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">PyTorch</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__content">
+            <h3 class="skills__title">Python Automation</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Python</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Selenium</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">PyTest</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Celery</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Fabric</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Behave</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section">
+        <span class="section__subtitle">My services</span>
+        <h2 class="section__title">What I Offer</h2>
+        <div class="services__container container grid">
+          <div class="services__card">
+            <h3 class="services__title">Chatbots</h3>
+            <span class="services__button">
+              See more <i class="bx bx-right-arrow-alt"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <h3 class="services__modal-title">Chatbots</h3>
+                <p class="services__modal-description">
+                  Design, development, and deployment of chatbots for customer
+                  service, marketing, and other use cases.
+                </p>
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Analyze client requirements and design a chatbot solution
+                      that meets their specific needs.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Choose an appropriate platform and tools for chatbot
+                      development and integration.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Implement the chatbot's natural language processing (NLP)
+                      and dialog management features.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Integrate the chatbot with relevant systems and services,
+                      such as customer relationship management (CRM) software or
+                      databases.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Test the chatbot and make any necessary adjustments to
+                      ensure that it functions correctly and meets the client's
+                      requirements.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="services__card">
+            <h3 class="services__title">
+              Agile System Engineering for Data Science
+            </h3>
+
+            <span class="services__button">
+              See more <i class="bx bx-right-arrow-alt"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <h3 class="services__modal-title">
+                  Agile System Engineering for Data Science
+                </h3>
+                <p class="services__modal-description">
+                  Develop and deploy data science solutions in an agile manner.
+                  The goal is to quickly bring data science solutions to market
+                  while ensuring high quality and scalability.
+                </p>
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Analyze the requirements of the data science solution and
+                      design an architecture that meets the client's needs.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Choose appropriate data science tools, such as Python, R,
+                      or Spark.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Develop the data science solution using an agile
+                      development process.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Test the data science solution to ensure that it meets the
+                      client's requirements.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Deploy the data science solution and monitor it to ensure
+                      that it is functioning correctly in a production
+                      environment.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="services__card">
+            <h3 class="services__title">CI/CD<br />Pipelines</h3>
+            <span class="services__button">
+              See more <i class="bx bx-right-arrow-alt"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <h3 class="services__modal-title">CI/CD Pipelines</h3>
+                <p class="services__modal-description">
+                  Design and implementation of continuous integration and
+                  continuous deployment pipelines, using tools such as Jenkins,
+                  GitLab CI/CD, or Travis CI.
+                </p>
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Analyze client requirements and design a CI/CD pipeline
+                      that meets their specific needs.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Choose an appropriate CI/CD tool and configure it to meet
+                      the client's requirements.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Integrate the CI/CD pipeline with the client's source
+                      control management system, such as Git.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Automate the building, testing, and deployment of
+                      applications and services.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Monitor the CI/CD pipeline and make any necessary
+                      adjustments to ensure that it functions correctly and
+                      meets the client's requirements.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="services__card">
+            <h3 class="services__title">Infrastructure<br />Automation</h3>
+            <span class="services__button">
+              See more <i class="bx bx-right-arrow-alt"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <h3 class="services__modal-title">Infrastructure Automation</h3>
+                <p class="services__modal-description">
+                  Automating the provisioning, configuration, and management of
+                  infrastructure using tools such as Ansible, Terraform, or
+                  CloudFormation.
+                </p>
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Analyze client requirements and design an infrastructure
+                      automation solution that meets their specific needs.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Choose an appropriate automation tool, such as Ansible,
+                      Terraform, or CloudFormation.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Write automation scripts and templates to provision,
+                      configure, and manage infrastructure components, such as
+                      servers, databases, and storage systems.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Test the automation scripts and make any necessary
+                      adjustments to ensure that they function correctly and
+                      meet the client's requirements.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Implement the infrastructure automation solution and
+                      ensure that it is functioning correctly.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="services__card">
+            <h3 class="services__title">Deployment<br />Automation</h3>
+            <span class="services__button">
+              See more <i class="bx bx-right-arrow-alt"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <h3 class="services__modal-title">Deployment Automation</h3>
+                <p class="services__modal-description">
+                  Automating the deployment of applications and services, using
+                  tools such as Docker, Kubernetes, or AWS Elastic Beanstalk.
+                </p>
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Analyze client requirements and design a deployment
+                      automation solution that meets their specific needs.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Choose an appropriate deployment tool, such as Docker,
+                      Kubernetes, or AWS Elastic Beanstalk.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Write automation scripts and templates to deploy and
+                      manage applications and services.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Test the deployment automation solution and make any
+                      necessary adjustments to ensure that it functions
+                      correctly and meets the client's requirements.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Implement the deployment automation solution and ensure
+                      that it is functioning correctly.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="services__card">
+            <h3 class="services__title">Monitoring<br />and Logging</h3>
+            <span class="services__button">
+              See more <i class="bx bx-right-arrow-alt"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <h3 class="services__modal-title">Monitoring and Logging</h3>
+                <p class="services__modal-description">
+                  Implementation of monitoring and logging systems, using tools
+                  such as Nagios, Logstash, and Kibana, to ensure the
+                  availability, performance, and security of applications and
+                  services.
+                </p>
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Analyze client requirements and design a monitoring and
+                      logging solution that meets their specific needs.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Choose an appropriate monitoring and logging tool, such as
+                      Nagios, Logstash, and Kibana.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Configure the monitoring and logging tool to monitor the
+                      availability, performance, and security of applications
+                      and services.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Implement the monitoring and logging solution and ensure
+                      that it is functioning correctly.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Monitor the monitoring and logging solution and make any
+                      necessary adjustments to ensure that it continues to meet
+                      the client's requirements.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="services__card">
+            <h3 class="services__title">Cloud<br />Migration</h3>
+            <span class="services__button">
+              See more <i class="bx bx-right-arrow-alt"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <h3 class="services__modal-title">Cloud Migration</h3>
+                <p class="services__modal-description">
+                  Design and implementation of cloud migration strategies,
+                  including the migration of on-premise applications and
+                  services to cloud platforms.
+                </p>
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Analyze client requirements and design a cloud migration
+                      plan that meets their specific needs.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Choose an appropriate cloud provider and services, such as
+                      Amazon Web Services (AWS), Microsoft Azure, or Google
+                      Cloud Platform (GCP).
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Develop a migration strategy and plan for moving the
+                      client's existing systems and data to the cloud.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Execute the migration plan, which may involve moving
+                      virtual machines, databases, or other components to the
+                      cloud.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Validate that the migration was successful and that the
+                      client's systems and data are functioning correctly in the
+                      cloud.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="services__card">
+            <h3 class="services__title">
+              Software <br />
+              Testing
+            </h3>
+            <span class="services__button">
+              See more <i class="bx bx-right-arrow-alt"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <h3 class="services__modal-title">Software Testing</h3>
+                <p class="services__modal-description">
+                  Evaluate the functionality and quality of a software
+                  application. The goal is to identify defects or issues before
+                  the software is released to the public.
+                </p>
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Analyze the requirements of the software application and
+                      design a testing plan to ensure that it meets the client's
+                      needs.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Choose an appropriate testing tool, such as Selenium,
+                      Appium, or JUnit.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Write test cases to validate the functionality of the
+                      software application.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Execute the test cases and report any defects or issues
+                      that are found.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Work with the development team to resolve any defects or
+                      issues that are found during the testing process.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="services__card">
+            <h3 class="services__title">Security</h3>
+            <span class="services__button">
+              See more <i class="bx bx-right-arrow-alt"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <h3 class="services__modal-title">Security</h3>
+                <p class="services__modal-description">
+                  Design and implementation of security measures, such as
+                  network security, firewall configurations, and access control,
+                  to protect against cyber threats.
+                </p>
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Analyze client requirements and design a security solution
+                      that meets their specific needs.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Choose an appropriate security tool, such as firewall,
+                      intrusion detection system, or vulnerability scanner.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Configure the security tool to protect the client's
+                      systems and data.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Implement the security solution and ensure that it is
+                      functioning correctly.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Monitor the security solution and make any necessary
+                      adjustments to ensure that it continues to meet the
+                      client's requirements.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== WORK ===============-->
+      <section class="work section" id="work">
+        <span class="section__subtitle">My Portfolio</span>
+        <h2 class="section__title">Recent Works</h2>
+
+        <div class="work__filters">
+          <span class="work__item active-work" data-filter="all">All</span>
+          <span class="work__item" data-filter=".contract">Contract</span>
+          <span class="work__item" data-filter=".personal">Personal</span>
+        </div>
+        <div class="work__container container grid">
+          <div class="work__card mix contract">
+            <img src="assets/img/dathway.png" alt="" class="work__img" />
+            <h3 class="work__title">Dathway</h3>
+            <span href="" class="services__button">
+              Thought Process <i class="bx bx-right-arrow-alt work__icon"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <h3 class="services__modal-title">Dathway</h3>
+                <p class="services__modal-description">
+                  I need to build a chatbot that can recommend skills based on
+                  the user's social activity. Let me think about how to approach
+                  this.
+                </p>
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Me: First, I need to determine the best way to gather
+                      social activity data. Should I use social media APIs or
+                      web scraping?
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Me: I think it would be best to use APIs, as web scraping
+                      could be unreliable and lead to data privacy issues.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Me: Next, I need to determine the criteria for
+                      recommending skills. Should I use machine learning or a
+                      rule-based approach?
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Me: I think machine learning would be more accurate, but
+                      it would require a lot of data to train the model. Maybe I
+                      can start with a simple rule-based approach and then
+                      incorporate machine learning later on.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Me: Now, I need to decide on the best platform for
+                      building the chatbot. Should I use a third-party platform
+                      like Dialogflow or build a custom bot with Python?
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Me: I think building a custom bot with Python would give
+                      me more control and flexibility. I can use the Telegram
+                      API for messaging and the scikit-learn library for machine
+                      learning.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Me: Lastly, I need to determine how to deploy the chatbot.
+                      Should I use a cloud platform like AWS or deploy it
+                      on-premises?Me: Now, I need to decide on the best platform
+                      for building the chatbot. Should I use a third-party
+                      platform like Dialogflow or build a custom bot with
+                      Python?
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Me: I think using a cloud platform like AWS would be more
+                      scalable and cost-effective in the long run. I can use
+                      Terraform for infrastructure as code and Jenkins for
+                      continuous integration and deployment.
+                    </p>
+                  </li>
+                </ul>
+
+                <a
+                  href="https://github.com/dbobola/dathway"
+                  target="_blank"
+                  class="home__social-link"
+                >
+                  <h6>View Code</h6>
+
+                  <i class="bx bxl-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="work__card mix personal">
+            <img src="assets/img/stackon.PNG" alt="" class="work__img" />
+            <h3 class="work__title">Stackon</h3>
+            <span href="" class="services__button">
+              Thought Process <i class="bx bx-right-arrow-alt work__icon"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <h3 class="services__modal-title">Stackon</h3>
+                <p class="services__modal-description">
+                  I need to build a project called Stackon that can predict the
+                  future price of non-fungible items. Let me think about how to
+                  approach this.
+                </p>
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      First, I need to determine what kind of historical data I
+                      can use. Where can I get the necessary information?
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      I think I can get data from online marketplaces and
+                      blockchain records. I can use APIs to gather the data and
+                      store it in a database.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Next, I need to determine what kind of sentimental data I
+                      can use. What are some sources of sentimental data?
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      I think I can gather data from social media, forums, and
+                      blogs. I can use sentiment analysis tools to determine the
+                      overall mood towards a specific NFT.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Now, I need to decide on the best algorithm to predict the
+                      future price of an NFT. Should I use a linear regression
+                      model or a machine learning model?
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      I think I should start with a linear regression model to
+                      establish a baseline, then move onto machine learning if
+                      necessary. I can use Python and libraries like
+                      scikit-learn for this.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Lastly, I need to determine how to present the predicted
+                      price to users. Should I create a web app or a mobile app?
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      I think creating a web app would be the most accessible
+                      and cost-effective solution. I can use Flask to create a
+                      simple web application that allows users to input
+                      information about an NFT and receive a predicted price.
+                      Doing that i will need to deploy a multi-container
+                      application using Azure DevOps, Azure Kubernetes Service,
+                      Azure Container Registry and Azure SQL Server.
+                    </p>
+                  </li>
+                </ul>
+                <a
+                  href="https://github.com/dbobola/stackon"
+                  target="_blank"
+                  class="home__social-link"
+                >
+                  <h6>View Code</h6>
+
+                  <i class="bx bxl-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="work__card mix personal">
+            <img src="assets/img/schooic.jpeg" alt="" class="work__img" />
+            <h3 class="work__title">Schooic</h3>
+            <span href="" class="services__button">
+              Thought Process <i class="bx bx-right-arrow-alt work__icon"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <h3 class="services__modal-title">Schooic</h3>
+                <p class="services__modal-description">
+                  I need to build a virtual school where AIs can teach users
+                  digital skills. What's the best way to go about this?
+                </p>
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      I think the first step is to determine the skills we want
+                      to teach. What are some of the most in-demand digital
+                      skills?
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Programming, web development, graphic design, and data
+                      analysis are all popular. Let's focus on those.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Next, we need to figure out how to train the AIs. Should
+                      we use pre-built models or build our own?
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Building our own models will give us more control and
+                      flexibility, but it will also take more time and
+                      resources. Maybe we can start with pre-built models and
+                      fine-tune them as needed.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Okay, so we have our skills and our AIs. How do we deliver
+                      the content? Do we use video lessons, live classes, or
+                      something else?
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Live classes would be more engaging and allow students to
+                      ask questions in real-time. Let's go with that.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Alright, so we have live classes with AI teachers. How do
+                      we grade assignments and track progress?
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      We can use machine learning algorithms to grade
+                      assignments and track progress over time. We can also give
+                      students personalized feedback and recommendations based
+                      on their strengths and weaknesses.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Great, we have a plan. Now, we need to figure out the
+                      technical details. What programming languages, frameworks,
+                      and tools should we use?
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      For the AI models, we can use TensorFlow or PyTorch. For
+                      the live classes, we can use Zoom or a custom video
+                      conferencing tool. For the grading and feedback, we can
+                      use scikit-learn or a similar library. We'll also need a
+                      web development framework for the Schooic platform itself.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      And yeah, before i forget i need to create a Big Data
+                      Cluster Infrastructure so i can properly manage the tonnes
+                      of data i will train the AIs with.
+                    </p>
+                  </li>
+                </ul>
+                <a
+                  href="https://github.com/dbobola/schooic-ai/"
+                  target="_blank"
+                  class="home__social-link"
+                >
+                  <h6>View Code</h6>
+
+                  <i class="bx bxl-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="work__card mix personal">
+            <img src="assets/img/xposuree.jpg" alt="" class="work__img" />
+            <h3 class="work__title">Xposure</h3>
+            <span href="" class="services__button">
+              Thought Process <i class="bx bx-right-arrow-alt work__icon"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <h3 class="services__modal-title">Xposure</h3>
+                <p class="services__modal-description">
+                  Alright team, let's talk about the Xposure project. We've
+                  decided to build it with StereoKit in C#, using the
+                  StereoKitXPlat template.
+                </p>
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Jack: That's right. And we made sure to use that template
+                      so that we can run our app on the StereoKit fallback
+                      simulator as well as natively on Quest.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Flavius: Using the fallback simulator has been a real time
+                      saver for us. We can iterate quickly and make sure
+                      everything is working properly before deploying to the
+                      Quest.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      David: And speaking of the Quest, the ability to use Quest
+                      + Link with hot reloads has been a game changer. It allows
+                      us to test in-headset and make changes quickly.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Jack: Absolutely, and we want to make sure we take
+                      advantage of all the features that StereoKit has to offer.
+                      Let's brainstorm some ideas for how we can really showcase
+                      the power of this platform in our app.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Flavius: Well, one idea I had was to use the spatial
+                      mapping features to create a more immersive experience for
+                      the user.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      David: That's a great idea. We could also use some of the
+                      gesture recognition features to allow the user to interact
+                      with the app in a more natural way.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Jack: And don't forget about the 3D object manipulation
+                      features. We could really make the app stand out by
+                      allowing the user to manipulate objects in a more
+                      intuitive way.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Flavius: These are all great ideas. Let's keep
+                      brainstorming and see what else we can come up with.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      David: Let's not forget to provison infrastructure with
+                      Terraform on Azure or AWS or GCP. And i think GPU Cluster
+                      nodes will do us good.
+                    </p>
+                  </li>
+                </ul>
+                <a
+                  href="https://github.com/dbobola/xposure"
+                  target="_blank"
+                  class="home__social-link"
+                >
+                  <h6>View Code</h6>
+
+                  <i class="bx bxl-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="work__card mix contract">
+            <img src="assets/img/one2one.png" alt="" class="work__img" />
+            <h3 class="work__title">One2One</h3>
+            <span href="" class="services__button">
+              Thought Process <i class="bx bx-right-arrow-alt work__icon"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <h3 class="services__modal-title">One2One</h3>
+                <p class="services__modal-description">
+                  I need to build an API that can handle client requests for a
+                  one2one project that connects users with their favorite
+                  celebrities. Let me think about how to approach this.
+                </p>
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      First, I need to determine the types of requests that the
+                      API will handle. Will it be mostly read requests, write
+                      requests, or a combination of both?
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      I think it will be a combination of both, with clients
+                      requesting information on available celebrities and
+                      submitting requests for booking sessions with them.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Next, I need to decide on the best platform for building
+                      the API. Should I use a third-party platform like AWS API
+                      Gateway or build a custom API with Node.js?
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      I think building a custom API with Node.js would give me
+                      more control and flexibility. I can use Express.js for
+                      routing and handling requests.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Now, I need to determine how to store and manage the data
+                      for the celebrities and the sessions. Should I use a NoSQL
+                      database like MongoDB or a SQL database like MySQL?
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      I think a NoSQL database like MongoDB would be more
+                      flexible for storing the different types of data, and I
+                      can use Mongoose for object modeling.
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      Lastly, I need to determine how to deploy and manage the
+                      API. Should I use a cloud platform like AWS or deploy it
+                      on-premises?
+                    </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i
+                      class="bx bxs-message-rounded-dots services__modal-icon"
+                    ></i>
+                    <p class="services__modal-info">
+                      I think using a cloud platform like AWS would be more
+                      scalable and cost-effective in the long run. I can use
+                      Terraform for infrastructure as code and Jenkins for
+                      continuous integration and deployment.
+                    </p>
+                  </li>
+                </ul>
+                <a
+                  href="https://github.com/dbobola/one2one-api"
+                  target="_blank"
+                  class="home__social-link"
+                >
+                  <h6>View Code</h6>
+
+                  <i class="bx bxl-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="awards section" id="awards">
+        <div class="client section">
+          <span class="section__subtitle">Achievements</span>
+          <h2 class="section__title">Awards</h2>
+          <div class="awards__container">
+            <div class="awards__box">
+              <i class="bx bx-award about__icon"></i>
+              <h3 class="about__title">
+                Hackathon <br />
+                Winner
+              </h3>
+              <span class="about__subtitle">Microsoft DevDays</span>
+            </div>
+            <div class="awards__box">
+              <i class="bx bx-award about__icon"></i>
+              <h3 class="about__title">
+                Hackathon <br />
+                Winner
+              </h3>
+              <span class="about__subtitle">EVM x IDEATHON</span>
+            </div>
+            <div class="awards__box">
+              <i class="bx bx-award about__icon"></i>
+              <h3 class="about__title">
+                Hackathon <br />
+                Mention
+              </h3>
+              <span class="about__subtitle">Near Metabuild</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--=============== TESTIMONIALS ===============-->
+      <section class="testimonial section" id="testimonial">
+        <span class="section__subtitle">My clients say</span>
+        <h2 class="section__title">Testimonial</h2>
+        <div class="testimonial__container container swiper">
+          <div class="swiper-wrapper">
+            <div class="testimonial__card swiper-slide">
+              <img src="assets/img/blk.jpg" alt="" class="testimonial__img" />
+              <h3 class="testimonial__name">Alex Azzi</h3>
+              <p class="testimonial__description">
+                A beast, technical and business wise! David understands what he
+                is doing and he is a very intentional young man.
+              </p>
+            </div>
+
+            <div class="testimonial__card swiper-slide">
+              <img src="assets/img/blk.jpg" alt="" class="testimonial__img" />
+              <h3 class="testimonial__name">Yousef Rahman</h3>
+              <p class="testimonial__description">
+                Vibrant young man. Very fast and detailed with machine learing
+                models.
+              </p>
+            </div>
+
+            <div class="testimonial__card swiper-slide">
+              <img src="assets/img/blk.jpg" alt="" class="testimonial__img" />
+              <h3 class="testimonial__name">Aida Nassar</h3>
+              <p class="testimonial__description">
+                I had the pleasure of working on a recent project and was blown
+                away by their skills in Automation. They were able to create an
+                efficient and reliable infrastructure that enabled our work
+                scale largely and perform at its best. I would highly recommend
+                to anyone looking for a top-notch engineer.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <span class="section__subtitle">Get in touch</span>
+        <h2 class="section__title">Contact Me</h2>
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h3 class="contact__title">Talk to me</h3>
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class="bx bx-mail-send contact__card-icon"></i>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__card-data">hi@dbobola.com</span>
+                <a
+                  href="mailto:hi@dbobola.com"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+              <div class="contact__card">
+                <i class="bx bxl-whatsapp contact__card-icon"></i>
+                <h3 class="contact__card-title">Whatsapp</h3>
+                <span class="contact__card-data">+234 70 53747657</span>
+                <a
+                  href="https://wa.me/message/XZEVT75FEJW6D1"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+              <div class="contact__card">
+                <i class="bx bxl-telegram contact__card-icon"></i>
+                <h3 class="contact__card-title">Telegram</h3>
+                <span class="contact__card-data">@david_bobola</span>
+
+                <a
+                  href="https://t.me/david_bobola"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="contact__content">
+            <h3 class="contact__title">Write me your project</h3>
+            <form action="" class="contact__form">
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Names</label>
+                <input
+                  type="text"
+                  placeholder="Insert your name"
+                  class="contact__form-input"
+                />
+              </div>
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Mail</label>
+                <input
+                  type="email"
+                  placeholder="Insert your email"
+                  class="contact__form-input"
+                />
+              </div>
+              <div class="contact__form-div contact__form-area">
+                <label for="" class="contact__form-tag">Project</label>
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Write your project"
+                  class="contact__form-input"
+                ></textarea>
+              </div>
+              <button class="button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">dbobola</h1>
+        <ul class="footer__list">
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
+          <li>
+            <a href="#work" class="footer__link">Projects</a>
+          </li>
+          <li>
+            <a href="#testimonial" class="footer__link">Testimonial</a>
+          </li>
+        </ul>
+        <ul class="footer__social">
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a
+            href="https://www.twitter.com"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-twitter"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-linkedin"></i>
+          </a>
+        </ul>
+        <span class="footer__copy">
+          &#169; dbobola 2023. All rights reserved.
+        </span>
+      </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/ProtoTeam/FadeIntoView.proto/dist/fadeIntoView.proto.min.js"></script>
+  </body>
+</html>
